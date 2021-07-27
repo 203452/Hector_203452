@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bulma.css">
+    <link rel="stylesheet" href="login.css">
+    <title>login</title>
+</head>
+<body>
+    <div class="container">
+        <div class='column is-full'>
+            <div class="card">
+                <div class="field center">
+                    <div class="card-content is-flex center">
+                        <img src="image/usuario.png" id="img-user">
+                    </div>
+                    <div class="card-content is-flex center">
+                        <label class="label">User</label>
+                    </div>
+                    <div class="control">
+                        <input class="input" type="text" id="user" placeholder="User">
+                    </div>
+                </div>
+                <div class="field center">
+                    <div class="field card-content is-flex center">
+                        <label class="label">Contraseña</label>
+                    </div>
+                    <div class="control">
+                        <input class="input" type="password" id="password" placeholder="Password">
+                      </div>
+                </div>
+                <div class="buttons card-content is-flex center">
+                    <button class="button is-primary" onclick="clickLogin()">Aceptar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+<footer>
+    <script src="main.js"></script>
+</footer>
+</html>

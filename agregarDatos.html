@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bulma.css">
+    <link rel="stylesheet" href="datos.css">
+    <title>agregar datos</title>
+</head>
+<body>
+    <div class="card row-custom">
+        <div class="card-content">
+            <div class="content" style="height: 500px;">
+                <div class="columns">
+                    <div class="column">
+                        <button class="button is-primary" style="width: 100% !important; "
+                            onclick="addData(); ">Agregar</button>
+
+                    </div>
+                    <div class="column">
+                        <input id="nombre" class="input-custom input is-primary" type="text" placeholder="Nombre">
+                        <br>
+                        <br>
+                        <input id=apellido_pat class="input-custom input is-primary" type="text" placeholder="Apellido paterno">
+                    </div>
+                    <div  class="column">
+                        <input id="apellido_mat" class="input-custom input is-primary" type="text" placeholder="Apellido materno">
+                        <br>
+                        <br>
+                        <input id=edad class="input-custom input is-primary" type="number" placeholder="edad">
+                    </div>
+                </div>
+                <div class="view">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<footer>
+    <script src="./main.js"></script>
+</footer>
+</html>

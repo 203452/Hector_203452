@@ -1,0 +1,9 @@
+.datos{
+    display: flex;
+    justify-content: center;
+}
+
+.view{
+    border: 1px solid black;
+    height: 400px;
+}
